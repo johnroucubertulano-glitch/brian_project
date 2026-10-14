@@ -1,17 +1,32 @@
-# brian_project
+# Brian Project
 
-A new Flutter project.
+## Project Summary
+Brian Project is a Flutter Web project initialized for the semester system development project. It provides the initial application structure with a home screen and a login screen.
 
-## Getting Started
+## Technology Stack
+- **Frontend:** Flutter Web
+- **Programming Language:** Dart
+- **Version Control:** Git and GitHub
+- **Planned Backend:** REST API
+- **Planned Database:** PostgreSQL
 
-This project is a starting point for a Flutter application.
+## Project Structure
+- `lib/main.dart` — Application entry point.
+- `lib/app.dart` — Main application configuration and routes.
+- `lib/screens/` — Contains the home and login screens.
+- `lib/widgets/` — Folder for reusable UI components.
+- `lib/services/` — Folder for service-related code.
+- `lib/models/` — Folder for data models.
+- `lib/routes/` — Folder for route organization.
+- `lib/constants/` — Folder for application constants.
+- `web/` — Web application bootstrap files.
+- `test/` — Automated tests.
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run the Project
+1. Install Flutter and configure the environment.
+2. Open the project directory in a terminal.
+3. Run `flutter pub get`.
+4. Run `flutter run -d chrome`.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Initial GitHub Checkpoint
+The project has been initialized and pushed to GitHub using Git. This repository serves as the starting checkpoint for future development.
